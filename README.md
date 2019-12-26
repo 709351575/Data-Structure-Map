@@ -54,6 +54,6 @@ The maintain balance in the Red-black Tree, I have implemented the following fun
     
 ### Class iterator and Class const_iterator
 
-The iterator classes enable some operations in map like `map.begin()`. if there is anything wrong, then it will throw `invalid_iterator` exception. Here is an example:
+The iterator classes enable some operations in map like `map.begin()`. if there is anything wrong, it will throw `invalid_iterator` exception. Here is an example:
 
         it = map.begin(); --it;
