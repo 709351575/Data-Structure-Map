@@ -45,15 +45,15 @@ The `mapNode` struct contains the following data members:
 
 The maintain balance in the Red-black Tree, I have implemented the following functions:
     
-    void LL(mapNode *&x)
-    void LR(mapNode *&t,mapNode *&p)
-    void RL(mapNode *&t,mapNode *&p)
-    void RR(mapNode *&y)
-    void insertRebalance(mapNode *&t): maintains balance upon insertion
-    void removeReblance(mapNode *&node,mapNode *&father): maintains balance when an element is removed
+        void LL(mapNode *&x)
+        void LR(mapNode *&t,mapNode *&p)
+        void RL(mapNode *&t,mapNode *&p)
+        void RR(mapNode *&y)
+        void insertRebalance(mapNode *&t): maintains balance upon insertion
+        void removeReblance(mapNode *&node,mapNode *&father): maintains balance when an element is removed
     
 ### Class iterator and Class const_iterator
 
 The iterator classes enable some operations in map like `map.begin()`. if there is anything wrong, then it will throw `invalid_iterator` exception. Here is an example:
 
-    it = map.begin(); --it;
+        it = map.begin(); --it;
