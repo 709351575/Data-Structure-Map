@@ -17,7 +17,7 @@ Implement STL::Map by Red-black Tree in C++
 ## Installation and Test
 It takes the following steps to test the `map` class:
 
-1. Download Codeblocks and open the project file `map.cbp`.
+1. Install Codeblocks and open the project file `map.cbp`.
 
 2. Copy the code from any test file, paste it to `main.cpp` and then run it.
 
