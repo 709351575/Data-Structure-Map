@@ -26,7 +26,7 @@ Note: Please make sure that the compiler follows the C++11 language standard.
 ## The Map Class
 
 ### Template
-The Map Class adopts the following template:
+The `map` class adopts the following template:
 
         template<class Key, class T, class Compare = std::less<Key> >
     
