@@ -3,39 +3,25 @@ Implement STL::Map by Red-black Tree
 
 ## Code Directory Structure
 - `root`
-    - `models`
-        - `cnn`
-            - `main.py` 
-            - `mycnn.py`
-            - `read.py`
-        - `detection`
-            - `main.py`
-            - `img_607.jpg`
-        - `fisher model`
-            - `main.py`
-            - `draw.py`
-        - `hog`
-            - `extract.m`
-            - `matlab_hog.py`
-            - `python_hog.py`
-        - `logistic regression`
-            - `langevin.py`
-            - `sgd.py`
-        - `svm`
-            - `main.py`
-            - `pick_support_vector.py`
-        - `tsne`
-            - `main.py`
-    - `preprocessing`
-        - `FDDB-folds`
-        - `originalPics`
-        - `testing`
-            - `negative`
-            - `positive`
-        - `training`
-            - `negative`
-            - `positive`
-        - `negative1.py`
-        - `negative2.py`
-        - `positive.py`
-        - `turntopickle.py`
+    - `main.cpp`: the main program
+    - `map.hpp`: the `map` class
+    - `class-bint.hpp`
+    - `class-integer.hpp`
+    - `class-matrix.hpp`
+    - `deque.hpp`
+    - `exceptions.hpp`
+    - `utility.hpp`
+    - `test/`: test files and results
+        - `map-basic.cc`
+        - `map-advance-1.cc`
+        - `map-advance-2.cc`
+        - `map-advance-3.cc`
+        - `map-advance-4.cc`
+        - `map-advance-5.cc`
+        - `map-advance-5.cc`
+        - `testans-map-basic`
+        - `testans-map-advance-1`
+        - `testans-map-advance-2`
+        - `testans-map-advance-3`
+        - `testans-map-advance-4`
+        - `testans-map-advance-5`
