@@ -1,5 +1,5 @@
 # Data-Structure-Map
-Implement STL::Map by Red-black Tree
+Implement STL::Map by Red-black Tree in C++
 
 ## Code Directory Structure
 - `root`
@@ -13,6 +13,6 @@ Implement STL::Map by Red-black Tree
         - `testans-map-basic`: test results from `map-basic.cc`
         - `testans-map-advance-1`, `testans-map-advance-2`, `testans-map-advance-3`, `testans-map-advance-4` and `testans-map-advance-5`: corresponding test results from advanced test files
         
-## Installation, Test and Run
+## Installation and Test
 Before running the program, please make sure that the compiler follows the C++11 language standard.
 For the test, just copy the code from test files and paste them to `main.cpp` and run it.
