@@ -1,4 +1,41 @@
 # Data-Structure-Map
 Implement STL::Map by Red-black Tree
 
-# Code Structure
+## Code Directory Structure
+- `root`
+    - `models`
+        - `cnn`
+            - `main.py` 
+            - `mycnn.py`
+            - `read.py`
+        - `detection`
+            - `main.py`
+            - `img_607.jpg`
+        - `fisher model`
+            - `main.py`
+            - `draw.py`
+        - `hog`
+            - `extract.m`
+            - `matlab_hog.py`
+            - `python_hog.py`
+        - `logistic regression`
+            - `langevin.py`
+            - `sgd.py`
+        - `svm`
+            - `main.py`
+            - `pick_support_vector.py`
+        - `tsne`
+            - `main.py`
+    - `preprocessing`
+        - `FDDB-folds`
+        - `originalPics`
+        - `testing`
+            - `negative`
+            - `positive`
+        - `training`
+            - `negative`
+            - `positive`
+        - `negative1.py`
+        - `negative2.py`
+        - `positive.py`
+        - `turntopickle.py`
