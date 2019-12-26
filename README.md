@@ -43,15 +43,14 @@ The `mapNode` struct contains the following data members:
         mapNode* right: points to the right child node
         int colour: indicates whether the node is black or red.
 
-The maintain balance, I have implemented the following functions:
+The maintain balance in the Red-black Tree, I have implemented the following functions:
     
     void LL(mapNode *&x)
-    
     void LR(mapNode *&t,mapNode *&p)
-    
     void RL(mapNode *&t,mapNode *&p)
-    
     void RR(mapNode *&y)
+    void insertRebalance(mapNode *&t): maintains balance upon insertion
+    void removeReblance(mapNode *&node,mapNode *&father): maintains balance when an element is removed
     
 ### Class iterator: the iterator class
 
