@@ -5,7 +5,7 @@ Implement STL::Map by Red-black Tree in C++
 - `root`
     - `map.hpp`: the `map` class
     - `main.cpp`: the main program for test
-    - `map.cbp`: the project file
+    - `map.cbp`: the Codeblocks project file
     - `exceptions.hpp`: handles exceptions.
     - `class-bint.hpp`, `class-integer.hpp`, `class-matrix.hpp`, `deque.hpp` and `utility.hpp`: different classes of instances
     - `test/`
