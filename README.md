@@ -30,7 +30,7 @@ The `map` class adopts the following template:
 
         template<class Key, class T, class Compare = std::less<Key> >
     
-Here, **Key** is the key for data elements, **T** stands for the data value and class ** Compare** means comparison between values. For convenience, I define `value_type` as the pair of key and value.
+Here, **class Key** is the key for data elements, **class T** stands for the data value and class **class Compare** means the comparison class between values. For convenience, I define `value_type` as the pair of key and value.
 
         typedef pair<const Key, T> value_type;
     
