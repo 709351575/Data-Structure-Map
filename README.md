@@ -23,4 +23,4 @@ It takes the following steps to test the `map` class:
 
 Note: Please make sure that the compiler follows the C++11 language standard.
 
-## The `map` Class
+## The Map Class
