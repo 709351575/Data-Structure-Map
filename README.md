@@ -22,22 +22,3 @@ It takes the following steps to test the `map` class:
 2. Copy the code from any test file, paste it to `main.cpp` and then run it.
 
 Note: Please make sure that the compiler follows the C++11 language standard.
-
-## The Map Class
-I mainly implement the following functions for the `map` class:
-
-    yaw: rotating angles around the x-axis
-    
-    pitch: rotating angles around the y-axis
-    
-    source2detector: the distance from the object to the detector
-    
-    source2isocenter: the distance from the object to the light source
-    
-    proj_width: the width (in pixels) for the detector
-    
-    proj_height: the height (in pixels) of the projection plane.
-    
-    pixel_size: the side length of a pixel on the projection plane
-    
-    offset: the offset location for both detector and light source
