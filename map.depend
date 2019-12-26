@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1577339031 source:d:\搞事情\我爱学习\大二上\数据结构\map\msin upload\map\map\main.cpp
+	"map.hpp"
+	<iostream>
+	<cassert>
+	<string>
+
+1577338907 d:\搞事情\我爱学习\大二上\数据结构\map\msin upload\map\map\map.hpp
+	<functional>
+	<cstddef>
+	"utility.hpp"
+	"exceptions.hpp"
+	<iostream>
+
+1512430428 d:\搞事情\我爱学习\大二上\数据结构\map\msin upload\map\map\utility.hpp
+	<utility>
+
+1512430428 d:\搞事情\我爱学习\大二上\数据结构\map\msin upload\map\map\exceptions.hpp
+	<cstddef>
+	<cstring>
+	<string>
+
