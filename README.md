@@ -52,7 +52,8 @@ The maintain balance in the Red-black Tree, I have implemented the following fun
     void insertRebalance(mapNode *&t): maintains balance upon insertion
     void removeReblance(mapNode *&node,mapNode *&father): maintains balance when an element is removed
     
-### Class iterator: the iterator class
+### Class iterator and Class const_iterator
 
-### Class const_iterator: the const iterator class
+The iterator classes enable some operations in map like `map.begin()`. if there is anything wrong, then it will throw `invalid_iterator` exception. Here is an example:
 
+    it = map.begin(); --it;
