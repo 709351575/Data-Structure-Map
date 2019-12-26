@@ -5,12 +5,8 @@ Implement STL::Map by Red-black Tree
 - `root`
     - `main.cpp`: the main program
     - `map.hpp`: the `map` class
-    - `class-bint.hpp`
-    - `class-integer.hpp`
-    - `class-matrix.hpp`
-    - `deque.hpp`
-    - `exceptions.hpp`
-    - `utility.hpp`
+    - `exceptions.hpp`: handles exceptions.
+    - `class-bint.hpp`, `class-integer.hpp`, `class-matrix.hpp`, `deque.hpp` and `utility.hpp`: different classes of instances
     - `test/`: test files and results
         - `map-basic.cc`
         - `map-advance-1.cc`
