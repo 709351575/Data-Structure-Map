@@ -28,11 +28,11 @@ Note: Please make sure that the compiler follows the C++11 language standard.
 ### Template
 The Map Class adopts the following template:
 
-    template<class Key, class T, class Compare = std::less<Key> >
+        template<class Key, class T, class Compare = std::less<Key> >
     
 Here, **Key** is the key for data elements, **T** stands for the data value and class ** Compare** means comparison between values. For convenience, I define `value_type` as the pair of key and value.
 
-    typedef pair<const Key, T> value_type;
+        typedef pair<const Key, T> value_type;
     
 ### Struct mapNode:
 The `mapNode` struct contains the following data members:
