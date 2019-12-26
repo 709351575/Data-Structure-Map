@@ -12,3 +12,7 @@ Implement STL::Map by Red-black Tree
         - `map-advance-1.cc`, `map-advance-2.cc`, `map-advance-3.cc`, `map-advance-4.cc` and `map-advance-5.cc`: advanced test files
         - `testans-map-basic`: test results from `map-basic.cc`
         - `testans-map-advance-1`, `testans-map-advance-2`, `testans-map-advance-3`, `testans-map-advance-4` and `testans-map-advance-5`: corresponding test results from advanced test files
+        
+## Installation, Test and Run
+Before running the program, please make sure that the compiler follows the C++11 language standard.
+For the test, just copy the code from test files and paste them to `main.cpp` and run it.
